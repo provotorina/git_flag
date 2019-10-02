@@ -20,6 +20,10 @@ def draw():
     point = [(45,140), (415,100)]
     pygame.draw.rect(screen, color, point, width)
 
+    color = (255, 0, 0)
+    point = [(45,240), (415,100)]
+    pygame.draw.rect(screen, color, point, width)
+
 draw()
 
 while pygame.event.wait().type != pygame.QUIT:
